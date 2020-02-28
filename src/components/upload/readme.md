@@ -16,13 +16,13 @@
 
 ## Methods
 
-### `getFileData() => Promise<any>`
+### `getFileData() => Promise<any[]>`
 
 
 
 #### Returns
 
-Type: `Promise<any>`
+Type: `Promise<any[]>`
 
 
 

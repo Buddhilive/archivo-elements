@@ -14,7 +14,7 @@ export class Upload {
   @Element() elemnt: HTMLElement;
 
   private fileInput: any;
-  private ardata: any;
+  private ardata: Array<any>;
 
   uploadFile(evt) {
     let files = evt.target.files;
@@ -25,7 +25,7 @@ export class Upload {
       let reader = new FileReader();
       reader.onload = e => {
         console.log(e.target.result);
-        this.ardata = e.target.result;
+        this.ardata.push(e.target.result);
       };
       reader.readAsDataURL(fileObj);
     }

@@ -6,6 +6,8 @@
 
 # Archivo Elements
 
+![Archivo Elements Logo](https://1.bp.blogspot.com/-dRVCbfCW5S0/XlldFlTrZyI/AAAAAAAAKh4/JyqQ_j7rAq04219RtWRep0g5YBcyWMY0gCLcBGAsYHQ/s320/archivo-logo.png)
+
 **Archivo Elements** is a collection of customizable File Upload and File Download buttons build using [Stencil.js](https://stenciljs.com/) that can be used with any web framework. 
 
 ## Available Components

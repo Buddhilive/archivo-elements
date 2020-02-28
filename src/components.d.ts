@@ -20,7 +20,7 @@ export namespace Components {
     'araccept': string;
     'armaultiple': boolean;
     'artitle': string;
-    'getFileData': () => Promise<any>;
+    'getFileData': () => Promise<any[]>;
   }
 }
 
